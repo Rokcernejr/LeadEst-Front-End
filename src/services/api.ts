@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ProcessedData, ApiResponse } from '../types';
 
-const API_URL = 'http://localhost:8080/train';
+const API_URL = 'http://localhost:5000/train';
 
 export const sendDataToApi = async (data: ProcessedData[]): Promise<ApiResponse> => {
   try {
